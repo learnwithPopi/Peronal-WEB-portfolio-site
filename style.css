@@ -135,7 +135,10 @@ i {
 }
 
 /* <!-- ================== NAVIGATION LINKS ================== --> */
-
+header{
+  position: relative;
+  z-index: 99997;
+}
 nav {
   display: flex;
   align-items: center;
@@ -512,8 +515,8 @@ nav label i {
 }
 
 .elem:hover.elem h1 {
-  transform: translate(15px);
-  opacity: 0.4;
+  transform: translate(25px);
+  opacity: 0.3;
 }
 
 .elem img {
