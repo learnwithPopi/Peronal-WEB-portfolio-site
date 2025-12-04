@@ -589,6 +589,198 @@
   .footer-right a {
     font-size: 0.7rem;
   }
+
+
+/* ==================== CTA-Form Tablet==================== */
+
+
+.CTA-Form{
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 20px;
+}
+.CTA-form-left{
+  max-width: 47%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.CTA-first{
+  justify-content: space-between;
+  padding: 10px;
+}
+.CTA-profileicon{
+  height: 45px;
+  width: 45px;
+  border: 1.7px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.CTA-profileicon img{
+  width: 100%;
+}
+
+.CTA-btns a{
+  padding: 10px 17px;
+  background: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  color: black;
+  font-size: .7rem;
+  white-space: nowarp;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.CTA-btns a i{
+  font-size: 14px;
+  color:crimson;
+  font-weight: bold;
+}
+/* CTA- SECOND CHILD  */
+
+.CTA-second{
+  flex-grow: 1;
+  line-height: 1.1;
+}
+.CTA-second h2{
+  margin-top: 30px;
+  font-size: 6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.CTA-form-right{
+  width: 53%;
+  height: 100%;
+  padding: 10px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-heading{
+  color: black;
+  text-align: center;
+  font-size: 3vw;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form-heading img{
+  height: 4vw;
+  margin-right: 10px;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.line-container{
+  justify-content: space-between;
+  height: 60px;
+}
+.line-container-alone{
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+}
+.input{
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+input::placeholder{
+  color: #a1a1a1;
+  font-size: .65rem;
+}
+
+  label{
+    color: black;
+    font-size: .6rem;
+  }
+
+  
+textarea{
+  width: 100%;
+  height: 80px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  font-family: paraghraph-font;
+  margin-top: 5px;
+}
+textarea::placeholder{
+  font-size: .65rem;
+}
+.form-btn button{
+  padding: 10px 20px;
+  background: #000;
+  border-radius: 10px;
+  color: white;
+  font-size: .8rem;
+  white-space: nowarp;
+
+  width: 100%;
+  i{
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* Mobile Screen */
@@ -1036,4 +1228,191 @@
     display: block;
     font-size: 0.9rem;
   }
+
+
+/* ==================== CTA-Form Mobile==================== */
+
+
+.CTA-Form{
+  flex-direction: column;
+  gap: 15px;
+  padding: 12px 20px;
+  height: 100vh;
+}
+.CTA-form-left{
+  max-width: 90%;
+  padding: 20px;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CTA-first{
+  justify-content: space-between;
+  padding: 10px;
+}
+.CTA-profileicon{
+  height: 40px;
+  width: 40px;
+  border: 1.7px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.CTA-profileicon img{
+  width: 100%;
+}
+
+.CTA-btns a{
+  padding: 10px 17px;
+  background: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  color: black;
+  font-size: .6rem;
+  white-space: nowarp;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.CTA-btns a i{
+  font-size: 14px;
+  color:crimson;
+  font-weight: bold;
+}
+/* CTA- SECOND CHILD  */
+
+.CTA-second{
+  flex-grow: 1;
+  line-height: 1.15;
+}
+.CTA-second h2{
+  margin-top: 10px;
+  font-size: 8vw;
+  text-align: center;
+}
+
+/* Fourth Section  */
+
+.github-section {
+
+  font-weight: bold;
+  line-height: 1;
+  font-size: .8rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+.CTA-form-right{
+  width: 90%;
+  padding: 10px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-heading h3{
+  color: black;
+  text-align: center;
+  font-size: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.contact-form-heading img{
+  height: 6vw;
+  margin-right: 10px;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.line-container{
+  justify-content: space-between;
+  height: 50px;
+}
+.line-container-alone{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+}
+.input{
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+input::placeholder{
+  color: #a1a1a1;
+  font-size: .65rem;
+}
+
+  label{
+    color: black;
+    font-size: .6rem;
+  }
+
+  
+textarea{
+  width: 100%;
+  height: 65px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  font-family: paraghraph-font;
+  margin-top: 5px;
+}
+textarea::placeholder{
+  font-size: .65rem;
+}
+.form-btn button{
+  padding: 10px 20px;
+  background: #000;
+  border-radius: 10px;
+  color: white;
+  font-size: .8rem;
+  white-space: nowarp;
+  width: 100%;
+  i{
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 }

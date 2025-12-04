@@ -617,14 +617,7 @@ nav label i {
   width: fit-content;
 }
 
-/* Fourth Section  */
 
-.github-section {
-  /* padding: 20px 30px; */
-  font-weight: bold;
-  line-height: 1;
-  font-size: 1rem;
-}
 
 /* Footer section  */
 footer {
@@ -671,12 +664,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 550px;
+  height: 80vh;
   gap: 15px;
-  padding: 10px 30px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
 }
 .CTA-form-left{
-  max-width: 60%;
+  max-width: 50%;
   height: 100%;
   padding: 20px;
   display: flex;
@@ -697,16 +691,12 @@ footer {
 .CTA-profileicon img{
   width: 100%;
 }
-.CTA-btns{
-  justify-content: space-between;
-  gap: 10px;
-}
+
 .CTA-btns a{
   padding: 10px 20px;
   background: #fff;
   border-radius: 10px;
   text-decoration: none;
-  color: white;
   color: black;
   font-size: .8rem;
   white-space: nowarp;
@@ -719,7 +709,6 @@ footer {
 
 .CTA-btns a i{
   font-size: 16px;
-  color: black;
   color:crimson;
   font-weight: bold;
 }
@@ -727,14 +716,21 @@ footer {
 
 .CTA-second{
   flex-grow: 1;
-  font-size: 3.9vw;
   line-height: 1.1;
 }
 .CTA-second h2{
   margin-top: 30px;
+  font-size: 4.9vw;
 }
 
+/* Fourth Section  */
 
+.github-section {
+  /* padding: 20px 30px; */
+  font-weight: bold;
+  line-height: 1;
+  font-size: 1rem;
+}
 
 
 
@@ -746,26 +742,26 @@ footer {
 
 
 .CTA-form-right{
-  width: 40%;
+  min-width: 40%;
   height: 100%;
   padding: 10px;
-  background: white;
+  background: #F7F7F7;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
 }
 
-.contact-form-heading{
+.contact-form-heading h3{
   color: black;
   text-align: center;
-  font-size: 40px;
+  font-size: 3vw;
   padding: 10px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .contact-form-heading img{
-  height: 40px;
+  height: 4vw;
   margin-right: 10px;
 }
 
@@ -804,6 +800,11 @@ input{
 }
 input::placeholder{
   color: #a1a1a1;
+  font-size: .75rem;
+}
+
+input:focus{
+  border: 1px solid rgb(0, 174, 255);
 }
 
   label{
